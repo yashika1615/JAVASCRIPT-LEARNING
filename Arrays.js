@@ -26,3 +26,30 @@ console.log(myArr.indexOf("true"));
 console.log(myArr.pop());
 myArr.reverse();
 
+//higher order functions in arrays
+function print(n){
+    console.log(n);
+}
+students.forEach(print);
+
+//map-
+students.map((val) => console.log(val));
+//diff between for each and map is that map returns a new array
+
+const numbers =[1,2,3,4,5,6,7];
+let newArr=[];
+numbers.forEach((num)=> newArr.push(num*2));
+console.log(newArr);
+
+//slice-array ka chota sa subarray part chhaaiye
+let newArr1= numbers.slice(1,5);
+console.log(newArr1);
+
+let newArr3= numbers.slice(2);
+console.log(newArr3);
+
+//splice- remove elements from the array and if necessary inserts new elements in their place
+//returning the deleted elements
+
+let newArr2= numbers.splice(1,4);
+console.log(newArr2);
