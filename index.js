@@ -136,4 +136,9 @@ console.log(typeOf(y));
 //NAN
 
 let b;
-console.log
+console.log(b);
+
+//js ka code top to bottom
+//acc to comp code running from left to right
+
+
