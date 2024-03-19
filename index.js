@@ -127,3 +127,13 @@ const obj1={
 };
 
 obj1.myfunction();
+
+const y={name:'Yashika'};
+console.log(typeOf(y));
+
+//data types in js
+//diff between undefined and null
+//NAN
+
+let b;
+console.log
