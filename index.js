@@ -141,4 +141,11 @@ console.log(b);
 //js ka code top to bottom
 //acc to comp code running from left to right
 
+//event trigger- event call horha
+//event trigger -> event listen hoga -> function call
+
+//who is responsible for pattern matching in js- Rgex(regular expression) also it works in the 3-tier architecture
+// 3-tier arch (frontend / backend / database)
+// two types of arch- monolithic /2-tier / 3-tier
+
 
