@@ -118,6 +118,19 @@ const newBankName={
 
 //andr ka data ko copy karna - deep copy
 
+//spread operator
+const arr=[1,2,3,4];
+const b= [5,6,7];
+//put both the data into c
+//use spread operator
+   const c=[...arr, ...b];
+   console.log(c);
+
+   //rest operator
+
+   //diff between rest operator and spread operator
+   
+
 
 
  

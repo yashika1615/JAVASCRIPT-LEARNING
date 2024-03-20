@@ -8,17 +8,23 @@
 <body>
     <h1> Hello this is dom</h1>
     <script>
-          const BankData={
-              BankName:'SBI',
-              IFSC: 'SBI976993',
-              BranchName: 'Rajpura'
-          }
-        const newBankName={
-            Bank_Name: BankData.BankName,
-              IFSC: BankData.IFSC,
-              Branch_Name: BankData.BankName
-        }
-        console.log(newBankName.IFSC);
+        const arr=[1,2,3,4];
+        const b= [5,6,7];
+        //put both the data into c
+        //use spread operator
+           const c=[...arr, ...b];
+           console.log(c);
+        //   const BankData={
+        //       BankName:'SBI',
+        //       IFSC: 'SBI976993',
+        //       BranchName: 'Rajpura'
+        //   }
+        // const newBankName={
+        //     Bank_Name: BankData.BankName,
+        //       IFSC: BankData.IFSC,
+        //       Branch_Name: BankData.BankName
+        // }
+        // console.log(newBankName.IFSC);
         
 //         const myProfile={
 //     name: 'yashika',
