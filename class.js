@@ -43,8 +43,81 @@
 //what is chunks- when you fetch something from the website the rquest goes to backend and then it gets send to the database
 //suppose at the backend the result is 50000 it will not send 50000 data to rather in small chunks
 //sending small small data to the frontend is chunks
+// databse chunks amin data bhejta hai
+//frontend maangta saara hai its database who send it in chunks
 
 //what is load balancing and load balancer
 // what is pagination
 //pagination is now replaced by on scroll
-// 
+
+//how is object data stored in json = in key value pair
+//how to handle data in objects/manipulate data in objects
+//methods to manipulate data in objects 
+//what is key value pair 
+//how to store multiple data in key value pair
+  const myProfile={
+    name: 'yashika',
+    age: 20,
+    city: 'rajpura',
+    address: { 
+        town: 'sundar nagar',
+        postalcode: 140401,
+        landmark: 'ambedkar park',
+        city: 'rajpura',
+        data:{
+            district:'patiala'
+        }
+
+    }
+  };
+
+  console.log(myProfile.city);
+
+  //to update
+  myProfile.city="Chandigarh";
+  console.log(myProfile.city);
+  
+//destructuring / rest operator and spread operator
+//what is deep copy and shallow copy
+  //how database keeps the data-schema
+  //nesting of objects - object ke andr object
+   
+  const myProfile={
+    name: 'yashika',
+    age: 20,
+    city: 'rajpura',
+    address: { 
+        town: 'sundar nagar',
+        postalcode: 140401,
+        landmark: 'ambedkar park',
+        city: 'rajpura',
+        data:{
+            district:'patiala'
+        }
+
+    }
+  };
+  // aceess object inside object
+
+  console.log(myProfile.address.data.district);
+
+  const BankData={
+    BankName:'SBI',
+    IFSC: 'SBI976993',
+    BranchName: 'Rajpura'
+}
+const newBankName={
+  Bank_Name: BankData.BankName,
+    IFSC: BankData.IFSC,
+    Branch_Name: BankData.BankName
+}
+
+
+// changinf the data of objects by making new objects-  destructuring
+// shallow copy type- destructuring
+
+//andr ka data ko copy karna - deep copy
+
+
+
+ 
