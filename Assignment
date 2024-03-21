@@ -859,6 +859,16 @@ display id,title and completed in table
 3. remove duplicate from array 
 
 
+//dom- document object model
+//jo webpage hai usko document kehte
+//const email= document.getElementsById(email.valueOf);
+//window - browser is called window
+//window object
+console.log(document);
+//   console.log(document.title);
+document.write("this is hacked);
+
+
 
 
 	

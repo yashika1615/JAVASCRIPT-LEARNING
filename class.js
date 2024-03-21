@@ -164,7 +164,10 @@ const b= [5,6,7];
 //function ko wait kraane ke liye setTimeout() lagaya hai
     //promises - 
     //3 states of promises - pending, fullfilled, ejected
-    
+    //async and await
+    // to save the function from call back hell - we make the function asynchronous
+
+
 
 
  let a=[]
@@ -172,6 +175,13 @@ const b= [5,6,7];
  // array methods to store content of b into an empty array a
  a.push=b 
 //let keyword se mutate ho sakta hai data , const se data immutable rahega
+
+//reverse a string
+const name="chitkara";
+const strRev =  name.split('').reverse().join(''); 
+console.log(strRev);
+
+
   
 
 
