@@ -53,3 +53,4 @@ console.log(newArr3);
 
 let newArr2= numbers.splice(1,4);
 console.log(newArr2);
+

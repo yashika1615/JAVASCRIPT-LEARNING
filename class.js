@@ -129,7 +129,24 @@ const b= [5,6,7];
    //rest operator
 
    //diff between rest operator and spread operator
-   
+   //default nature of js- synchronous => tht it exceutes line by line
+   //acc to need we make function/ file we make it asynchronous
+   //async hota ni banaya jaata hai
+   //java is multi threaded
+   // node js is single threaded-  stream and buffer / concurrency/ asynchronous/loading data in chunks- 
+   //these all things make nodejs scalable/ reliable 
+   //cached data-
+   // concurrency- mutiple req can be handled at one position so the mutiple servers 
+   //are not needed here that is why it is not that expensive also
+
+   //callback/ 
+
+
+
+
+
+  
+
 
 
 
