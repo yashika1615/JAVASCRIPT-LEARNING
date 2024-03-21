@@ -139,12 +139,39 @@ const b= [5,6,7];
    // concurrency- mutiple req can be handled at one position so the mutiple servers 
    //are not needed here that is why it is not that expensive also
 
-   //callback/ 
+   //integrate frontend and backend- fetch method
+   //callback - eh hi event par multiple fuctions call krne ke liye
+   //ek function ke andr dusre function ko call karna is call karna
+   //callback hell - pyramid 
+        // function login(){
+        //   //
+        //   //
+        //   //
+        //   //
+        //    const data = {  sdtc(
+
+        //     )      
+        //        }
+        //        function sdtc(){
+
+        //        }
+        // }
+
+    // diff between es5 and es6
+// es6 features - most imp promises / map, filter, reduce / async await 
+//what is polyfill 
+//call stack
+//function ko wait kraane ke liye setTimeout() lagaya hai
+    //promises - 
+    //3 states of promises - pending, fullfilled, ejected
+    
 
 
-
-
-
+ let a=[]
+ let y=[1,2,3]  
+ // array methods to store content of b into an empty array a
+ a.push=b 
+//let keyword se mutate ho sakta hai data , const se data immutable rahega
   
 
 
