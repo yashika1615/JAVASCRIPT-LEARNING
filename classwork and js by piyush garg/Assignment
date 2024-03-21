@@ -868,6 +868,40 @@ console.log(document);
 //   console.log(document.title);
 document.write("this is hacked);
 
+// alert("helllo i am alert");
+        // prompt("whats your name");
+//   console.log(window);
+//   console.log(document);
+//   console.log(document.title);
+//    document.title="abcd";
+ //document.write("this is hacked");
+       
+//query selector
+/* selectors
+  tag name
+  id #
+  class . 
+*/
+// const body= document.querySelector("body");
+// console.log(body);
+// // body.innerHTML="<h1> Hacked!!</h1>";
+// console.log(body.innerHTML);
+
+//  const div= document.querySelector("div");
+//  console.log(div.innerHTML);
+// div.innerHTML="<h1> Hacked!!</h1>";
+
+//now suppose we have multiple divs which one will be sleected
+  //querySelector and query electorAll
+  
+//   const username= document.querySelector("#username");
+// console.log(username.innerText);
+// username.innerHTML="<h1>Hello</h1>";
+
+//function invokation
+
+
+
 
 
 

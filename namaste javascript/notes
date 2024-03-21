@@ -1,0 +1,44 @@
+*How JavaScript works?
+Ans-Everything in JavaScript happens inside an "execution context".
+
+Execution context has two component
+1)memory component[variable environment] 
+-This is the place where all variables and functions are stored as key value pairs. eg-{key: value ||  n:2;} 
+
+ 2)code component[Thread of execution]
+-This is the place where code is executed one line at a time
+
+Note-
+*JavaScript is a synchronous single-threaded language
+
+-Single threaded means JavaScript can execute once command at a time
+-Synchronous single-threaded that means JavaScript can execute one command at a time in a specific order.
+
+ Execution Context Creation and its 2 phases: Memory Allocation Phase and the Code Execution phase.
+
+This video also answers questions about- 
+Is Javascript Single-threaded or multi-threaded? 
+Is JS Synchronous or asynchronous?
+
+everything in js happens inside an execution context
+like a big box and has 2 component- memory also known as variable env
+2nd- code component known as thread of exceution
+like a thread where the whole code is executed one line aat a time
+js is synchronous single threaded language- can exceute one command at a time and only in specific order
+js is not possible without this exceution context
+
+
+//what happens when you excute a js code
+exceution context is created
+the exceution context is created in 2 phase- first is creation phase also known as memory creation phase
+js will allocate memory to all varibales and functions
+
+when it allocates memory to n it stores the values a undefined and incase of functions it stores the whole code
+other varibales-undefined
+ 2nd phase-code exceution phase- line by line exceution
+
+ when a new fuction is invoked a brand new exceution context iscreated
+
+
+
+
