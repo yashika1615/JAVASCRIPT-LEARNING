@@ -38,6 +38,13 @@ other varibales-undefined
  2nd phase-code exceution phase- line by line exceution
 
  when a new fuction is invoked a brand new exceution context iscreated
+ 
+js is brain of web applications
+js code is executed by something called js engine and every browser has its own js engine to execute its own js code
+chrome has v8 engine
+firefox has spidermonkey
+microsoft has chakra
+and safari has javascript code
 
 
 
