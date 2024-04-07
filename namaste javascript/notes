@@ -46,6 +46,13 @@ firefox has spidermonkey
 microsoft has chakra
 and safari has javascript code
 
+node js is an open source and cross platform javascript runtime environment . It is a popular tool for almost any kind of project. 
+
+types
+primitive types/ value types
+string 
+
+no matter if the variable declared is float or integer the type is going to be number only
 
 
 

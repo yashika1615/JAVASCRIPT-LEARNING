@@ -1,0 +1,915 @@
+
+ty-javascript-react
+Javascript
+
+Path - D:\HTD Training\ty-javascript-react\Assignment
+===================================================
+Assignment 1 ( Sept 7th )
+===================================================
+
+1. List 10 Javascript / Ecmascript Engines
+    JavaScript is a scripting language and is not directly understood by computer but the browsers have inbuilt JavaScript engine which help them to understand and interpret JavaScript codes. These engines help to convert our JavaScript program into computer-understandable language. 
+
+A JavaScript engine is a computer program that executes JavaScript code and converts it into computer understandable language.
+ (1) V8
+ (2) Chakra
+ 
+
+2. What is Javascript Engine 
+3. What is diff bw Javascript and Ecmascript
+4. What is diff bw ECMA and Ecmascript 
+5. Data types in Javascript with example 
+6. Create 5 objects without using new keyword with one function
+7. Create 5 objects using new keyword with one function  
+8. Difference bw null and undefined 
+
+===================================================
+Assignment 2 ( Sept 8th )
+===================================================
+
+https://dorey.github.io/JavaScript-Equality-Table/
+
+1. Difference bw primitive and reference types
+2. Difference bw == and ===
+3. Calculate BMI and print results using ternary operator and if else statements
+4. Go through JS Comparison tables - https://dorey.github.io/JavaScript-Equality-Table/ 
+5. Two examples for each primitive type using typeof operator 
+6. Create 5 arrays without using new keyword with all primitive types and object and loop using for loop
+7. Create 5 arrays using new keyword with all primitive types and object and loop using for loop
+8. Display Day using Date object
+	Input - new Date('Sept 12 2020')
+	Output - Saturday, September 12 2020
+
+===================================================
+Assignment 3 ( Sept 9th )
+===================================================
+
+1. Five examples using for in loop, for of loop - Array and Objects 
+2. WAP to find prime number or not using four ways of functions 
+3. WAP for bubble sort using four ways of functions 
+4. WAP to reverse string using four ways of functions 
+5. WAP to find second largest number using four ways of functions 
+6. WAP to print integer Value between Two Numbers (Inclusive)
+	Input :
+	Enter a min value: 1
+	Enter a max value: 50
+	Output :
+	Random value between 1 and 50 is 47
+7. WAP to find factorial of number using four ways of functions 
+8. WAP to print fibonacci series using four ways of functions
+9. What is callback function ? Write an example 
+10. What is Hoisting with example 
+
+===================================================
+Assignment 4 ( Sept 13 )
+===================================================
+
+1. What is the use of callback function
+2. Explain the Javascript order of execution OR Workflow of Javascript
+3. List and explain wierd javascript things 
+4. What is temporal dead zone. Explain ?
+5. What is Mutable and Immutable with an example 
+6. What happens in below scenarios 
+	const n = [10, 20 ,30 ]
+	const n1 = n
+	n.slice(0)
+7. Give five examples for array methods	
+	a. forEach
+	b. push 
+	c. pop
+	d. shift 
+	e. unshift
+	f. includes
+	g. splice
+	h. slice 
+	i. isArray
+8. Difference bw var, let and const 
+9. Difference bw splice and slice methods 
+10. Difference bw push and unshift 
+11. Difference bw pop and shift 
+
+===================================================
+Assignment 5 ( Sept 14 )
+===================================================
+1. Explain find(), findIndex(), flat(), sort(), reverse() methods 
+   of Array and five examples for these methods 	
+2. Explain hasOwnProperty(), toString(), Object.keys(), 
+   Object.values(), Object.entries(), Object.create(), Object.assign(), 
+   Object.freeze() methods of Object and five examples for these methods
+3. What is Web Apis in javascript and list 10 web apis
+4. What is deepCopy and shallowCopy
+5. Difference b/w deepCopy and shallowCopy
+6. 
+
+===================================================
+Assignment 6 ( Sept 15 )
+===================================================
+1. Example for setTimeout(), setInterval(), clearTimeout, clearInterval 
+2. Example for Array and string methods 
+3. Example for deepCopy and shallowCopy 
+4. Explain window, location, history, navigator objects 
+5. WAP to find geolocation 
+6. add, remove, update - array operations 
+7. What is DOM ? Explain
+8. What is the use / advantages of DOM ?
+9. What is the diff b/w innerHTML and innerText and textContent
+
+
+===================================================
+Assignment 7 ( Sept 16 )
+===================================================
+
+1. Difference bw display : none and visibility : hidden 
+2. Explain Event and EventListener in javascript 
+3. Explain onchange event with an example
+4. Form validation with input box, select and 
+options, checkbox and radiobutton using javascript
+	Name - Input box (Validation - only characters are allowed)
+	Age - input box  (Validation - Age should be greater than 0 and less than 150 )
+	Subjects Studied - CheckBoxes  (Validation - required)
+	Male or Female - RadioButton		   (Validation - required)
+	Password - Input Box				   (Validation - required , should consist 
+											atleast 1 lowerCase, 1 uppercase,
+                                             1 number and 1 special character)
+	Email - Input Box 						(Validation - valid email id )
+	Agree to terms and condition - CheckBox	(Validation - required)
+    State - Select and options (Validation - required)
+5. Example for Object and Array destructuring 
+6. Example for spread and rest operator for object and array
+7. Difference bw JSON.stringify() and JSON.parse()
+
+===================================================
+Assignment 8 ( Sept 17 )
+===================================================
+
+1. What are promises with an example 
+2. What is callback hell or pyramid of doom
+3. What is recursion with an example
+4. What is fetch api, example for GET method
+5. What are closures explain with example 
+6. Difference bw Promise.all() and Promise.race()
+7. What is this keyword, explain this keyword with example 
+8. Explain call(), apply(), bind() methods in javascript with a program
+9. What is Constructor function 
+10. Declare class in javascript with two propertie and two methods 
+11. Maps and Sets example -> 
+
+====================================================
+
+
+
+===================================================
+Assignment 8 ( Dec 29 )
+===================================================
+
+1. What are promises with an example 
+2. What is callback hell or pyramid of doom
+3. What is recursion with an example
+4. What is fetch api, example for GET method
+5. What are closures explain with example 
+6. Difference bw Promise.all() and Promise.race()
+7. What is this keyword, explain this keyword with example 
+8. Explain call(), apply(), bind() methods in javascript with a program
+9. What is Constructor function 
+10. Declare class in javascript with two propertie and two methods 
+11. Maps and Sets example ->
+
+=====================================================
+1. At global level, this === window 
+2. In normal function, this === window 
+3. Functions belongs to object, this === object 
+4. Functions declared inside object which doesnot belong to object 
+    this === window
+5. Arrow functions will have its parent context 
+    (this will be pointing to its parent object)
+
+===================================================
+Assignment 9 ( Sept 20 )
+===================================================
+1. What is localStorage and explain methods of 
+localStorage with an example
+2. What is sessionStorage and explain methods of 
+sessionStorage with an example
+3. Difference bw localStorage and sessionStorage 
+4. Difference bw call, apply, bind 
+
+===================
+REACT JS 		  =
+===================================================
+Assignment 1 ( Sept 21 )
+===================================================
+
+1. What is React JS ?
+2. Why React ?
+3. What is diff bw library and framework ?
+4. React vs React DOM
+5. How to create react elements ?
+6. What is Virtual DOM ? 
+7. Real DOM vs Virtual DOM ? 
+8. What is Single Page Application ?
+
+
+<script crossorigin 
+    src="https://unpkg.com/react@15.4.2/dist/react.js">
+    </script>
+    <script
+    crossorigin 
+    src="https://unpkg.com/react-dom@15.4.2/dist/react-dom.js">
+    </script>
+
+===================================================
+Assignment 2 ( Sept 22 )
+===================================================
+
+1. What is JSX. Explain with an example
+2. WAP to fetch data from 
+https://jsonplaceholder.typicode.com/users and 
+display name,username,address details in card format
+ in web page. 
+3. Example for Class component 
+4. Example for Functional Component
+5. What are props ? 
+6. Difference bw Class and Functional Components 
+7. Explain Diffing Algorithm and Complexity of Algorithm
+8. What is Babel 
+9. Explain key attribute ? Why key attribute need to be used 
+
+===================================================
+Assignment 3 ( Sept 23 )
+===================================================
+
+1. Difference b/w props and state ?
+2. Example to pass data from parent to child 
+3. What is setState (). Explain 
+4. Explain writing events in Class component and 
+	functional component with an example ?
+
+
+===================================================
+Assignment 4 ( Sept 24 )
+===================================================
+
+1. Example for passing data from child to parent component 
+2. TODO APP 
+3. Explain Lifecycle methods of Class component with an example 
+4. Example for conditional rendering style and classes and component
+5. localStorage Assignment
+6. setState is Asynchronous or not ? What is the proper way to update the state ?
+7. 5 programs to pass data from child to parent
+8. 2 programs to pass data from parent to child 
+
+===================================================
+Assignment 5 ( Sept 27 )
+===================================================
+
+1. Create 5 projects - 
+	npx create-react-app appName
+	
+	create-react-app appName 
+	
+	second-app
+	third-app
+	fourth-app 
+	fifth-app 
+	sixth-app 
+2. What are React Hooks ? 
+3. 3 examples for conditional rendering 
+4. Explain useState hook with an example for array and object 
+5. LocalStorage assignment using React JS 
+6. Explain the project structure of React App 
+
+===================================================
+Assignment 6 ( Sept 28 )
+===================================================
+
+1. Explain Link, Route, BrowserRouter, withRouter 
+2. WAP to navigate programmatically
+3. Explain import and export 
+4. LocalStorage assignment using React JS ( Sept 30, Thursday Morning 10:30 am)
+5. TODO ( Sept 30, Thursday Morning 10:30 am)
+6.  Routing login and register with validation  ( Sept 31, Friday Morning 10:30 am)
+7. What is Webpack ?
+
+===================================================
+Assignment 7 ( Sept 30 )
+===================================================
+
+1. What is props drilling ?
+2. What is the solution for props drilling ?
+3. What is context api, explain with an example 
+4. What is redux 
+5. What is ref, example of using ref in class and functional component
+6. What is useEffect()
+7. Table CRUD operation - refer link 
+(https://technoelevate-ess-lite.netlify.app/) 
+	Educational Tab - 
+8. Recipe app 
+
+===================================================
+Assignment 8 ( Oct 1 )
+===================================================
+
+1. Use fetch api and fetch the data - 
+https://jsonplaceholder.typicode.com/users
+2. Explain useEffect wrt componentDidMount, 
+	componentDidUpdate, componentWillUnMount
+	with an example for string, number, array and object
+3. What is axios, example for GET,POST,PUT,DELETE methods 
+
+===================================================
+Assignment 9 ( Oct 4 )
+===================================================
+
+1. Case Study React - (Deadline - Oct 8 , 10:30 am)
+https://xd.adobe.com/view/6e6b883a-455e-49e4-a6c2-9550d74330df-3b38/
+
+===================================================
+Assignment 10 ( Oct 5 )
+===================================================
+
+1. What is Pure Component ? How to make class and functional components as Pure Component
+2. Which is the dev server used in React project ? (Answer - webpack-dev-server)
+3. How to create axios instance ?
+4. What is Fragment ?
+5. What is ErrorBoundary ? How to handle errors in react js ? 
+6. What are Limitations of ErrorBoundary ? 
+	Answer :
+	
+	Error boundaries do not catch errors for:
+
+	Event handlers (learn more)	
+	Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
+	Server side rendering
+	Errors thrown in the error boundary itself (rather than its children)
+7. Which errors can be handled in error boundaries ?
+8. What is code splitting and lazy loading ?
+
+===================================================
+Assignment 11 ( Oct 6 )
+===================================================
+
+1. What is HOC ? Explain with an example 
+2. What is useMemo ? Explain with an example
+3. What is useCallback ? Explain with an example 
+4. What is useReducer ? Explain with an example 
+5. What is reduce function ? Explain with an example
+
+===================================================
+Assignment 12 ( Oct 7 )
+===================================================
+
+1. Example for combination of useReducer and useContext 
+2. What is isNaN() ?
+3. How to create custom hooks ? Create two custom hooks ? ( By googling ) 
+4. What is render prop ?
+5. Difference bw useState and useReducer ? When to use which, explain ?
+
+===================================================
+Assignment 13 ( Oct 8 )
+===================================================
+
+1. Explain jwt with an example ?
+2. What is axios interceptors ? explain with an example 
+3. Write a test case using react-testing-library ?
+4. Project with routing concept (params based)? 
+5. Explain Switch component of react-router-dom with an example ?
+6. Explain the flow of redux ? 
+7. How to run react app in different port ? i.e., in specific port number
+
+===================================================
+Assignment 14 ( Oct 13 )
+===================================================
+
+1. Install ESLINT and PRETTIER. Explain ESLint and its benefits 
+
+What is ESLint?
+ESLint, is a JavaScript linter that can find and fix common problems in your code. 
+This is a huge time saver, and an absolute necessity for all JavaScript developers. 
+It does all the heavy lifting around coding standards for you, and you don’t have to worry about forgetting them.
+
+Benefits of ESLint
+
+a. Reduce human errors and doesn’t rely on developers to remember the code standards.
+b. All the developers are on the same page with coding standards, and can read each other’s code.
+c. Developers don’t have to spend time on code reviews, pointing out coding standard issues.
+d. Big time saver and improves team’s velocity.
+
+2. Write test cases for react components using react-testing-library 
+   Official website - https://testing-library.com/docs/react-testing-library/intro 
+   Other Reference - https://www.freecodecamp.org/news/react-testing-library-tutorial-javascript-example-code/ 
+					https://www.youtube.com/watch?v=7dTTFW7yACQ&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1&ab_channel=TheNetNinja
+					
+3. Complete the case study by Monday morning 10am without fail 
+
+===================================================
+Assignment 15 ( Oct 18 )
+===================================================
+					
+1. What is Protected Route ? Explain with an example 
+
+===================================================
+Assignment 1 ( Nov 1 )
+===================================================
+
+1. What is Application ? Types of application ?
+2. What is Web resource ? Types of web resource ?
+3. Diff bw static and dynamic web resource ? With real time example ?
+4. Diff bw static web app and dynamic web app ?
+5. What is Server ? 
+6. What is Node js ?
+7. Features of Node js ?
+8. Diff bw blocking I/O and non blocking I/O ?
+9. Synchronous vs asynchronous 
+10. Diff bw chrome V8 and Node js V8 ?
+11. What is REPL ?
+12. What are modules ? 
+13. Types of modules with an example 
+14. Explain Global object 
+15. Create a file using async and sync 
+	a. Read the data 
+	b. Write the data 
+	c. Delete the folder 
+	d. Rename the file 
+	e. Append the data to existing file 	
+	
+===================================================
+Assignment 2 ( Nov 2 )
+===================================================
+	
+1. Third party library - chalk (Example code)
+2. What is event emitter ? Explain with an example 
+3. Explain 
+	on
+	once
+	emit
+	addListener
+	removeListener
+	removeAllListener
+	off
+	eventNames
+	setMaxListeners
+4. Explain os module with an example 
+5. What is streams and buffers ?
+6. Explain readable stream with an example ?
+7. Explain writable stream with an example ?
+8. Diff b/w flowing stream and non flowing stream 
+9. Add the data to the file using command line arguments
+		
+		1,7,9
+		
+
+===================================================
+Assignment 3 ( Nov 3 )
+===================================================		
+
+1. What is URL & types of URL? 
+2. What is Web URL ? 
+3. Structure of Web URL and explain each part. Explain in detail
+4. HTTP structure 
+5. Key elements of HTTP request and HTTP response
+6. HTTP Methods
+7. List status codes 
+	1xx informational response – the request was received, continuing process
+	2xx successful – the request was successfully received, understood, and accepted
+	3xx redirection – further action needs to be taken in order to complete the request
+	4xx client error – the request contains bad syntax or cannot be fulfilled
+	5xx server error – the server failed to fulfil an apparently valid request
+8. How to create server ?
+9. Ways to communicate with web application ?
+10. Explain url module with an example 
+11. Create a CRUD application using NODE JS with HTTP Methods 
+
+
+	GET  /products 
+	POST /products?id=1&name=""&description=''&price=1200
+	PUT /products?id=1&name=""&description=''&price=1200
+	DELETE /products?id=1
+12. What is package.json? explain 
+
+
+===================================================
+Assignment 4 ( Nov 8 )
+===================================================		
+
+1. What is express ? 
+2. How to create server and listen using express ?
+3. Creating dynamic web resources / routes using express ?
+4. What is middleware and features of middleware?
+5. Types of middleware explain each with an example ?
+6. How to serve static files ? Explain different ways of serving 
+7. CRUD operation using file system 
+
+===================================================
+Assignment 5 ( Nov 9 )
+===================================================		
+
+1. What is template engine and features of template engine ?
+2. List various template engines ?
+3. Explain express-handlebars template engine with setup code 
+4. CRUD operation using file system  using handlebars 
+5. What is the use of body parser middleware 
+	// bodyparser middlewares
+	app.use(express.urlencoded({ extended: false }));
+ 
+ mongodb+srv://admin:<password>@cluster0.89agy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+ 
+===================================================
+Assignment 6 ( Nov 10 )
+===================================================	
+
+1. What is mongoose ? Uses of mongoose ?
+2. What is dbUrl 
+3. How to connect to mongodb using mongoose 
+	a. locally 
+	b. to mongodb atlas cloud 
+4. What is mongoose Schema with an example 
+5. What is mongoose model with an example 
+6. What is router-level middleware with an example 
+7. What is find().lean() ? Why use lean() ? 
+8. How to insert single object ? save() 
+
+
+===================================================
+Assignment 7 ( Nov 11 )
+===================================================	 
+
+1. Difference b/w redirect and render ?
+2. deleteOne vs deleteMany with an example 
+3. Search assignment
+4. What is the use of  runValidators:true 
+5. Order assignment
+
+===================================================
+Assignment 7 ( Nov 12 )
+===================================================	 
+  
+1. What is cookie ? 
+2. What happens before browser sends the request ?
+3. Types of cookies explain 
+4. How to create persistent and non persistent cookie 
+5. Why cookies 
+6. How to read cookie and clear cookie
+7. User dependent and User independent app explain with ex 
+8. Why HTTPSession ? 
+9. What is session 
+10. How to create session , validate session and destroy session 
+
+===================================================
+Assignment 8 ( Nov 16 )
+===================================================	 
+
+1. What are Web services ?
+2. Why Web services ?
+3. Types of Web services ?
+4. What is REST ? 
+5. What is RESTful api ?
+6. List real time applications which is using Web services ? 
+ 
+
+===================================================
+Assignment 9 ( Nov 17 )
+===================================================	 
+
+1. What is bcryptjs explain with example 
+2. What is salting 
+3. What is hashing , drawbacks of hashing 
+4. What is JWT, structure  and advantages of JWT 
+5. Where do commonly jwt is added in request object 
+6. Case study -> 
+	React - Questionaarie front end &  backend with login n logout using jwt 
+	Angular - Products app  front end & backend with login n logout using jwt 
+	Vue - Shopping app front end & backend with login n logout using jwt 
+
+
+===================================================
+Assignment 10 ( Nov 18 )
+===================================================	 	
+	
+
+
+=============================================================
+React project create issue 
+=============================================================
+1. npm uninstall -g create-react-app && npm i -g npm@latest && npm cache clean -f && npx create-react-app my-app
+
+OR
+
+2. npx create-react-app@latest your-project-name --use-npm
+
+
+
+npm uninstall -g create-react-app
+npm i create-react-app
+npx create-react-app my-app
+
+First Way 
+
+npm uninstall -g create-react-app
+npx create-react-app@latest usereducer-hook --use-npm
+
+Second Way 
+
+npm uninstall -g create-react-app
+npm i create-react-app
+npx create-react-app my-app
+
+
+
+===================================================
+Prop Types 
+===================================================
+List.propTypes = {
+    todos: PropTypes.array.isRequired,
+  };
+  
+===================================================
+https://myshopprime.com/chandan2350/ip2gbjj
+
+500 
+
+30%
+
+500+30% 
+
+
+ pPrice: {
+        type:Number,
+        required:true,
+        validate: {
+            validator: function(val) {
+                return val.toString().length === 9
+            },
+            message: val => `${val.value} has to be 9 digits`
+        }
+    },
+	
+ await product.deleteMany({_id: ['618cb7b62812217eeddb25b1','618cb7cabf2a9332923c55eb'] })
+ await product.deleteMany({_id:{$in : ['618cb5bd0656e78ecd145a58','618cb6b488d0e862ff63c0e9'] }})
+===============================================================================
+Without JWT
+===============================================================================
+1. https://ty-shop.herokuapp.com/api/products GET
+
+
+2. https://ty-shop.herokuapp.com/api/products POST
+
+req body: 
+{
+    "productName": "BMW ",
+    "productPrice": 50,
+    "productImageURL": "https://cdn.pixabay.com/photo/2016/04/07/06/53/bmw-1313343__340.jpg",
+    "productDescription": "Speed motorcycle"
+}
+
+3. https://ty-shop.herokuapp.com/api/products/{_id} PUT
+
+req body:
+{
+    "productName": "Benz ",
+    "productPrice": 50,
+    "productImageURL": "https://cdn.pixabay.com/photo/2016/04/07/06/53/bmw-1313343__340.jpg",
+    "productDescription": "Speed motorcycle"
+}
+
+4. https://ty-shop.herokuapp.com/api/products/{_id} DELETE
+
+===============================================================================
+With JWT 
+===============================================================================
+
+1. https://ty-shop-token.herokuapp.com/api/users/login POST
+
+req body:
+{
+   'email': '',
+   'password': ''
+}
+
+{
+   'email': 'cc@gmail.com',
+   'password': 'cc123'
+}
+{
+   'email': 'jwt@gmail.com',
+   'password': 'jwt@123'
+}
+
+2. https://ty-shop-token.herokuapp.com/api/users/register POST
+
+{
+    "fullName" : "Chandan",
+"email":"lite4@gmail.com",
+"password":"lite4",
+"role":"admin"
+}
+
+
+{
+    "fullName" : "Chandan",
+"email":"jwt@gmail.com",
+"password":"jwt@123",
+"role":"admin"
+}
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp3dEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJmdWxsTmFtZSI6IkNoYW5kYW4iLCJpYXQiOjE2NDEzNzgzOTQsImV4cCI6MTY0MTM4MTk5NH0.F5nDIQ6bIK15FlcNOlZl2-cPjbU0jNluAHW7zBKhFt0
+
+var express = require('express')
+var cookieParser = require('cookie-parser')
+var sessions = require('express-session')
+
+var app = express()
+
+// creating 24 hours from milliseconds
+const oneDay = 1000 * 60 * 60 * 24;
+
+//session middleware
+app.use(sessions({
+    secret: "thisismysecrctekeyfhrgfgrfrty84fwir767",
+    saveUninitialized:true,
+    cookie: { maxAge: oneDay },
+    resave: false
+}));
+
+
+app.use(cookieParser());
+
+const myusername = 'user1'
+const mypassword = 'mypassword'
+
+// a variable to save a session
+var session;
+
+app.get('/login',(req,res) => {
+    console.log(req.session);
+    session=req.session;
+    if(session.userid){
+        res.send("Welcome User <a href=\'/logout'>click to logout</a>");
+    }else{
+    res.send('Please login')
+    }
+});
+
+app.get('/user',(req,res) => {
+    if('user1' == myusername && 'mypassword' == mypassword){
+        // session=req.session;
+        // session.userid=req.body.username;
+        req.session.userid=myusername;
+        console.log(req.session)
+        res.send(`Hey there, welcome <a href=\'/logout'>click to logout</a>`);
+    }
+    else{
+        res.send('Invalid username or password');
+    }
+})
+
+app.get('/logout',(req,res) => {
+    req.session.destroy();
+    res.redirect('/');
+});
+
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+});
+
+============================================================
+CALLBACK HELL 
+============================================================
+
+
+app.get("/details", function (req, res) {
+    var name = req.query.name;
+    console.log(name);
+  
+    Scopus.find({ name: name },
+        { '_id': 0, 'authorId': 1 },
+        function (err, result) {
+            if (err) { }
+            else {
+                var searchResult = result[0]["authorId"];
+                console.log(searchResult);
+                var options = {
+                    url: "https://api.elsevier.com/content/author/author_id/"
+                        + searchResult + "?apiKey",
+                    headers: { 'Accept': 'application/json' }
+                };
+                request(options, function (error, response, body) {
+                    if (error) {
+  
+                        // Print the error if one occurred
+                        console.error('error in Authors :', error);
+  
+                        // Print the response status code if a response was received
+                        console.log('statusCode:', response && response.statusCode);
+                        res.send("error")
+                    }
+                    else if (!error) {
+                        var jsonObj = JSON.parse(body);
+                        if (jsonObj['author-retrieval-response'] == undefined) {
+                            res.send("No details");
+                        }
+                        else {
+                            var reqData = jsonObj['author-retrieval-response'][0];
+                            var authprofile = reqData["author-profile"]
+                            var names = authprofile["preferred-name"]["indexed-name"]
+                            console.log(names);
+                            var citation = reqData["coredata"]["citation-count"];
+                            var query = { authorId: searchResult };
+  
+                            Scopus.findOneAndUpdate(query, {
+                                name: names,
+                                citationCount: citation
+                            }, function (err, doc, res) {
+                                if (err) {
+                                    console.log("error");
+                                }
+                                else {
+                                    console.log("success");
+                                }
+                            })
+                            res.render("details", { data: reqData });
+                        }
+                    }
+                });
+            }
+        })
+		
+});
+
+
+
+
+
+=====================================
+Assignment
+=====================================
+
+1. HOC with functional component 
+2. dynamic routes for users and posts 
+3. back button to go back to users and posts from /posts/:id or /users/:id 
+
+1. Search functionality with Ascending and Descending order
+https://jsonplaceholder.typicode.com/posts
+
+2. Crud operation Add, delete, update , display
+https://technoelevate-ess-lite.netlify.app/
+
+3. fetch records from 
+https://jsonplaceholder.typicode.com/todos
+and 
+display id,title and completed in table
+	Pagination should be present
+	Each page should have 10 records
+	There should be prev,next, first and last button 
+	in pagination
+1. Pagination (first,prev,next,last)
+2. bubble, merge sort 
+3. remove duplicate from array 
+
+
+//dom- document object model
+//jo webpage hai usko document kehte
+//const email= document.getElementsById(email.valueOf);
+//window - browser is called window
+//window object
+console.log(document);
+//   console.log(document.title);
+document.write("this is hacked);
+
+// alert("helllo i am alert");
+        // prompt("whats your name");
+//   console.log(window);
+//   console.log(document);
+//   console.log(document.title);
+//    document.title="abcd";
+ //document.write("this is hacked");
+       
+//query selector
+/* selectors
+  tag name
+  id #
+  class . 
+*/
+// const body= document.querySelector("body");
+// console.log(body);
+// // body.innerHTML="<h1> Hacked!!</h1>";
+// console.log(body.innerHTML);
+
+//  const div= document.querySelector("div");
+//  console.log(div.innerHTML);
+// div.innerHTML="<h1> Hacked!!</h1>";
+
+//now suppose we have multiple divs which one will be sleected
+  //querySelector and query electorAll
+  
+//   const username= document.querySelector("#username");
+// console.log(username.innerText);
+// username.innerHTML="<h1>Hello</h1>";
+
+//function invokation
+
+
+
+
+
+
+	
