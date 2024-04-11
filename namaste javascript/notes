@@ -70,6 +70,20 @@ everytime you run or exceute a javascript code theres and execution context crea
  this execution context has 2 main components- the first component is before running the javascript code - memory is allocated to the variables and functions that is why this phase is called memory phase 
  and in the second phase the code is executed line by line - kavascript is synchronous single threaded language and that is why the second phase is called the code phase 
 
+hoisting
+temporal dead zone
+window
+this
+
+let var const
+//let, var and const
+//const and let are more strict use const 
+// whenever you want you want your value to be constant 
+// and it cannot be changed , use let otherwise avoid using var
+
+//lexical scope- you basically check where it is located and 
+// can we access it or not
+
 
 
 
