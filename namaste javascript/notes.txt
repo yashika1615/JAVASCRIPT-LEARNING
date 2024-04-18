@@ -1,0 +1,89 @@
+// everything in js happens inside the exceution context(assume it to be a big box or a 
+// container in which the whole javascript code is to executed)
+
+
+*How JavaScript works?
+Ans-Everything in JavaScript happens inside an "execution context".
+
+Execution context has two component
+(1)memory component[variable environment] 
+-This is the place where all variables and functions are stored as key value pairs. eg-{key: value ||  n:2;} 
+
+ (2)code component[Thread of execution]
+-This is the place where code is executed one line at a time
+That whole thing is called as execution context inside that there two things 
+1.Memory component
+2.Code component
+In memory component variable and functions values can be stored in a  key value format.
+Code component is a place where whole JavaScript code is executed
+Memory component is also called as variable environment 
+And code component is also called as thread of execution.
+
+Note-
+*JavaScript is a synchronous single-threaded language
+
+-Single threaded means JavaScript can execute once command at a time
+-Synchronous single-threaded that means JavaScript can execute one command at a time in a specific order.
+1. When JavaScript code is executed, Execution Context is created and it is called Global Execution Context.
+2. JavaScript program is executed in TWO PHASES inside Execution Context
+  a. MEMORY ALLOCATION PHASE - JavaScript program goes throughout the program and allocate memory of Variables and Functions declared in program.
+  b. CODE EXECUTION PHASE -  JavaScript program now goes throughout the code line by line and execute the code. 
+3. A Function is invoked when it is called and it acts as another MINI PROGRAM and creates its own Execution Context.
+4. Returns keyword return the Control back to the PREVIOUS Execution-Context where the Function is called and Execution Context of the Function is DELETED.
+5. CALL STACK maintains the ORDER of execution of Execution Contexts. It CREATES Execution Context whenever a Program starts or a Function is invoked and it pops out the Execution Context when a Function or Program ENDS.
+
+// execution context
+// consist of 2 components- memory component and code component
+// memory component- heavy word for it variable en in which all the 
+// function and varibales are stored it in a key value format
+// code component or thread of exceution- where code is executed one line at a Time
+// synchronous single threaded - single command at a time that also in a particular order i.e you can only go to next line when current
+// line has finished executing
+ // js is not possible without this exec context
+
+1. Whenever any JavaScript code is executed an execution context is created and it is the Global Execution Context.
+2. An Execution Context is basically a box which has two components called Memory Component(Variable Environment) and Code Component(Thread Of Execution).
+3. The Execution context is created in two phases
+   a. Memory Creation Phase : In this Phase, Memory is allocated to all the variables and functions which are present in the           global scope. Special keyword Undefined in case of variables and literally the whole function in case of functions.
+   b. Code Execution Phase : In this Phase, code is executed line by line.
+
+4. Whenever there is a function invocation an all new execution context is created and same process is followed again.
+5. If there is any function parameter then it is also allocated memory while creating the execution context of the function.
+6. Whenever return keyword is encountered , it means the task of function is over and it returns back the control of the program back to the place where it was invoked. and with this this execution context is deleted from stack.
+
+7. Call Stack is basically a stack which maintains the order of execution of execution context. Whenever a code is executed the Global Execution Context is pushed into the stack first and later on as per the function invocation the  execution context is pushed into the stack. When the function code is done executing the execution context is popped out and last the Global Execution Context s also deleted.
+what happens when you run a js program 
+   An execution context is created
+
+2 Golden Rules:
+1. Variable declarations are scanned and are made undefined
+2. Function declarations are scanned and are made available
+
+1. In JS, before the code is executed, the variables get initialized to undefined.
+2. Arrow functions enact as variables and get "undefined" during the memory creation phase while functions actually get run.
+3. Hoisting: Mechanism in JS where the variable declarations are moved to the top of the scope before execution. Therefore it is possible to call a function before initializing it.
+4. Whenever a JS program is run, a global execution block is created, which comprises of 2: Memory creation and Code execution.
+5. Variable declarations are scanned and are made undefined
+6. Function declarations are scanned and are made available1. In JS, before the code is executed, the variables get initialized to undefined.
+2. Arrow functions enact as variables and get "undefined" during the memory creation phase while functions actually get run.
+3. Hoisting: Mechanism in JS where the variable declarations are moved to the top of the scope before execution. Therefore it is possible to call a function before initializing it.
+4. Whenever a JS program is run, a global execution block is created, which comprises of 2: Memory creation and Code execution.
+5. Variable declarations are scanned and are made undefined
+6. Function declarations are scanned and are made available
+
+1. Hoisting in JavaScript is a process in which all the Variables, Functions and Class defination are declared BEFORE execution of the code 
+3. Variables are initialised to UNDEFINED when they are declared and Function defination is stored AS IT IS.
+4. They are declared in Memory Allocation Phase in the Memory Component of Execution Context, so we can use them even BEFORE they are declared.
+5. UNDEFINED means Variable has been declared but value is not ASSIGNED but NOT DEFINED means Variables is NOT DECLARED.
+6. When we assign Variable to a Function defination, we CAN NOT call this Variable as Function BEFORE declaration as it will behave as Variable with UNDEFINED value.
+
+For arrow functions, we are storing function inside a variable, and when memory is allocated to variables it store undefined, so when we try to invoke the variable as a function, js finds undefined instead of a function, so it shows error  that getName() is not a function as that is actually a normal variable that you're are trying to access as a function............
+
+Accessing function without initialising it - hoisiting
+
+even before the code starts exceuting memory is allocated to varibales and functions
+
+ 
+
+
+
