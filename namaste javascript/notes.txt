@@ -83,7 +83,37 @@ Accessing function without initialising it - hoisiting
 
 even before the code starts exceuting memory is allocated to varibales and functions
 
- 
+window object- the window object represents an pen window in a browser. it is browsers objec(not javascript)
+and is automatically created by browser.
+it is a global object with lots of properties and methods
+
+ what is dom?
+    when a web page is loaded, the browser creates a DOCUMENT OBJECT MODEL(DOM)
+    of the page
+
+          
+          window 
+            |
+         DOCUMENT
+            |
+           html
+        /         \
+   head             body
+/   /  \   \         /      \
+meta   title link   div      script 
+                  /   /  \  \
+               img   h1  p   div
 
 
+console.log - print
+console.dir -> document -> properties and methods
+window -> document
 
+events in js-
+The change in the state of an object is known as an events
+events are fired to notify the code of "interesting changes" that may affect code execution
+
+mouse events( click, double click etc)
+keyboard events( keypress, keyup , keydown)
+form events(submit etc)
+print events and many more
