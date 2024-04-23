@@ -79,7 +79,11 @@ const p1= new Promise((res, rej) =>{
 console.log(p1);
 setTimeout(() =>{
     console.log(p1);
-}, 5000)
+ }, 5000);
+
+
+
+
 
 
 
