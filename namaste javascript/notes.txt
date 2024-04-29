@@ -124,3 +124,54 @@ prinicple of least access- jitna kam access aur jyada output mile
 
 in js two types of scope- local and global(functional scope)
 
+classes and objects-
+    a javascript object is an entity having state and behavious( properties and methos)
+prototype in js-
+   js objects have a special property called prototype.
+   we can set prototype using _ _proto _ _proto
+* if object and protoype have same emthod , objects method will be used
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

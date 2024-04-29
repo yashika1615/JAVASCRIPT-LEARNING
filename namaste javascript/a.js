@@ -81,7 +81,16 @@
 //     console.log(p1);
 //  }, 5000);
 
-var name1= 'Aman';
+
+// direct way of creating object
+const student= {
+   fullname: "yashika",
+   marks: 9.75,
+   printMarks: function(){
+      console.log("marks =", this.marks);
+   },
+};
+
 
 
 
