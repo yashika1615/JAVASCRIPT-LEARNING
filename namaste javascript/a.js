@@ -18,19 +18,19 @@
 //     console.log(y);
 // }
 
-function A1(func2){
-    console.log("A");
-    setTimeout(B,5000)
-    while(true){
-        console.log("hello");
-    }
-}
+// function A1(func2){
+//     console.log("A");
+//     setTimeout(B,5000)
+//     while(true){
+//         console.log("hello");
+//     }
+// }
 
-function B(){
-    console.log("B");
-}
+// function B(){
+//     console.log("B");
+// }
 
-A(B);
+// A(B);
 
 //call stack=> A()(e) -> clg('A') (e) -> B() -> clg('B') 
 // Ram -> memory
@@ -43,13 +43,13 @@ A(B);
   
 // it will take min 5 sec to execute even if the callstack is busy
 
-function W1(){
-    function W2(){
-        function W3(){
+// function W1(){
+//     function W2(){
+//         function W3(){
 
-        }
-    }
-}   // callback hell
+//         }
+//     }
+//}   // callback hell
 
 // passign callback functions to another function so that nesting tkes places that is known as
 // callback hell 
@@ -72,14 +72,17 @@ function W1(){
 // write a promise
 // kisi bhi class ka instance banana ho toh new kaam hota hai
 
-const p1= new Promise((res, rej) =>{
-      return res("abcd")
-})
+// const p1= new Promise((res, rej) =>{
+//       return res("abcd")
+// })
 
-console.log(p1);
-setTimeout(() =>{
-    console.log(p1);
- }, 5000);
+// console.log(p1);
+// setTimeout(() =>{
+//     console.log(p1);
+//  }, 5000);
+
+var name1= 'Aman';
+
 
 
 

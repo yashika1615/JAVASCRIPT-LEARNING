@@ -117,3 +117,10 @@ mouse events( click, double click etc)
 keyboard events( keypress, keyup , keydown)
 form events(submit etc)
 print events and many more
+
+the scope is default - global
+
+prinicple of least access- jitna kam access aur jyada output mile
+
+in js two types of scope- local and global(functional scope)
+
