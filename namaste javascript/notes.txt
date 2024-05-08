@@ -120,6 +120,93 @@ print events and many more
 
 the scope is default - global
 
+*How JavaScript works?
+Ans-Everything in JavaScript happens inside an "execution context".
+
+Execution context has two component
+1)memory component[variable environment] 
+-This is the place where all variables and functions are stored as key value pairs. eg-{key: value ||  n:2;} 
+
+ 2)code component[Thread of execution]
+-This is the place where code is executed one line at a time
+
+Note-
+*JavaScript is a synchronous single-threaded language
+
+-Single threaded means JavaScript can execute once command at a time
+-Synchronous single-threaded that means JavaScript can execute one command at a time in a specific order.
+
+ Execution Context Creation and its 2 phases: Memory Allocation Phase and the Code Execution phase.
+
+This video also answers questions about- 
+Is Javascript Single-threaded or multi-threaded? 
+Is JS Synchronous or asynchronous?
+
+everything in js happens inside an execution context
+like a big box and has 2 component- memory also known as variable env
+2nd- code component known as thread of exceution
+like a thread where the whole code is executed one line aat a time
+js is synchronous single threaded language- can exceute one command at a time and only in specific order
+js is not possible without this exceution context
+
+
+//what happens when you excute a js code
+exceution context is created
+the exceution context is created in 2 phase- first is creation phase also known as memory creation phase
+js will allocate memory to all varibales and functions
+
+when it allocates memory to n it stores the values a undefined and incase of functions it stores the whole code
+other varibales-undefined
+ 2nd phase-code exceution phase- line by line exceution
+
+ when a new fuction is invoked a brand new exceution context iscreated
+ 
+js is brain of web applications
+js code is executed by something called js engine and every browser has its own js engine to execute its own js code
+chrome has v8 engine
+firefox has spidermonkey
+microsoft has chakra
+and safari has javascript code
+
+node js is an open source and cross platform javascript runtime environment . It is a popular tool for almost any kind of project. 
+
+types
+primitive types/ value types
+string 
+
+no matter if the variable declared is float or integer the type is going to be number only
+
+js/python- dynamic language
+-both the type and the value can be changed
+
+static language- value change but not type change
+
+//reference types
+0bjects/ arrays/functions
+arrays and functions are objects only
+
+how js code is executed-
+execution context- environment consituting your env, variables, functions
+everytime you run or exceute a javascript code theres and execution context created
+ so initially theres a global exceution context created and everytime you craete a new function a new exceution context is created and will be added to the call stack 
+ this execution context has 2 main components- the first component is before running the javascript code - memory is allocated to the variables and functions that is why this phase is called memory phase 
+ and in the second phase the code is executed line by line - kavascript is synchronous single threaded language and that is why the second phase is called the code phase 
+
+hoisting
+temporal dead zone
+window
+this
+
+let var const
+//let, var and const
+//const and let are more strict use const 
+// whenever you want you want your value to be constant 
+// and it cannot be changed , use let otherwise avoid using var
+
+//lexical scope- you basically check where it is located and 
+// can we access it or not
+
+
 prinicple of least access- jitna kam access aur jyada output mile
 
 in js two types of scope- local and global(functional scope)
@@ -131,8 +218,92 @@ prototype in js-
    we can set prototype using _ _proto _ _proto
 * if object and protoype have same emthod , objects method will be used
 
+type of a prototype- reference to an object
+
+jab OBJECT aur prototype donon ka methd ya function name same hoga toh object
+ka method use hoga
+ example: 
+   
+const employee={
+   calctax() {
+      console.log("the tax rate is 10%);
+   },
+};
+
+const karanarjun={
+   salary: 50000,
+   calcTax(){
+      console.log("the tax rate is 20%); 
+        },
+};
+
+karanarjun.__proto__ = employee;
+
+the output will be -
+ "the tax rate will be 20%"
+
+classes in js-
+ - template
+ - blueprint of an object
+ class is a program code template for creating objects
+ those objects will have some state(variables) and some behaviour (functions)
+ inside it.
+
+ class MyClass{
+   constructor() {.....}
+   mymethod() {.....}
+ }
+
+let myObj= new MyClass;
+
+jo this ke saath hai voh object ki property hai aur jo doosra hai voh
+jo as a argument pass kiya hai
+
+constructor() method is : automatically invoked by new, initializes an object
+
+class MyClass{
+   constructor() {...}
+   mymethod() {.....}
+}
+
+inheritance - inheritance is passing down properties and methods from parent class to child class
+
+class Parent{
+
+}
+
+class Child extends Parent{
+
+}
 
 
+* if child and parent have same method,
+ child method will be used (method overriding)
+
+ class1 -> p1, p2, m1(), m2() 
+          |
+          |
+      class2 -> extends
+
+super keyword-
+  is used to call a constructor of its parent class to access
+  the parents properties and emthods
+
+  super(args) // calls the parents constructor
+  super.parentMethod(args)
+
+// async js
+
+// async await >> promises >> callback hell
+
+sync is js-
+ synchronous- synchronous means the code run in a particular
+   sequence of instructions given in the program.
+   each instruction waits for the PREVIOUS instructions to complete its executions.
+
+asynchronous- due to synchronous programming, sometimes important 
+instructions get blocked due to some previous instructions, which causes delay
+in the UI. Asynchrnous code execution allows to execute next instructions immediately and doesnt block the flow.
 
 
 

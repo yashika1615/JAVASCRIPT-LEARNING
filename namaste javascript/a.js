@@ -91,7 +91,100 @@ const student= {
    },
 };
 
+const employee= {
+    calctax(){
+        console.log("the tax rate is 10%");
+    },
+    calctax2: function(){
+        console.log("bfbabrfkav");
+    },
+};
 
+
+const karanarjun={
+    salary: 50000,
+};
+
+const karanarjun2={
+    salary: 46335,
+};
+
+const karanarjun3={
+    salary: 46335,
+};
+
+const karanarjun4={
+    salary: 46335,
+};
+
+// set a prototype- 
+karanarjun.__proto__ = employee;
+karanarjun2.__proto__ = employee;
+karanarjun3.__proto__ = employee;
+karanarjun4.__proto__ = employee;
+
+
+// classes
+
+class ToyotaCar{
+   start(){
+    console.log("start");
+   }
+
+   stop(){
+    console.log("stop");
+   }
+   
+    setBrand(brand){
+        this.brand= brand;
+   }
+}
+
+// is class se objects se create karna hai toh 
+// yeh toyota ki baaaki cars ke liye template ban gya hai
+
+let fortuner= new ToyotaCar(); // constructor is envoked
+ fortuner.setBrand("fortuner");
+let lexus= new ToyotaCar();
+lexus.setBrand("lexus");
+
+// inheritance
+
+class parent{
+    hello(){
+        console.log("hello");
+    }
+}
+
+class Child extends Parent{}
+     let obj= new Child();
+
+
+
+class Person{
+    constructor(){
+        this.species="homo sapiens";
+    }
+    eat(){
+        console.log("eats");
+    }
+
+sleep(){
+    console.log("sleeps");
+}
+
+  work(){
+    console.log("person works");
+  }
+}
+
+class Engineer extends Person{
+    work() {
+        console.log("solve problem , build something");
+    }
+}
+
+let yash= new Engineer();
 
 
 
