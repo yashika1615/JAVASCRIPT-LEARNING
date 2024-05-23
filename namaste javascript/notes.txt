@@ -19,6 +19,81 @@ Code component is a place where whole JavaScript code is executed
 Memory component is also called as variable environment 
 And code component is also called as thread of execution.
 
+var- function scoped
+const and let - block scoped
+
+are let, var and cost hoisted?
+
+in case of var, 
+  clg(a);
+  var a=10;
+// ismain humne a ko define hi nhin kiya hai
+ toh clg kne pe not defined aana chahiye par yeh 
+ undefined aata hai - so what happens is javascript ka thread
+ pure code ko execute karta hai aur jo bhi variables hote hain unko
+ memory allocation kar deta hai toh jaise usko a mila
+ toh usko undefined se memory allocate hui toh jab usko value dedi uske passs value chali gyi
+
+jab usko memory allocate hui tab uski hoisting huii
+  var is hoisted , functions are also hoisted
+
+let is not hoisted 
+  clg(a);
+  let a=10;
+// it will give error saying "cannot access a before initialization"
+
+but agr hum b ko clg krein toh
+ clg(b);
+ clg(a);
+ let a=10;
+
+b will give error saying that not defined
+but in a it will give that cannot access a before initializing
+ao, conclusion hoisting is happening but not at that level
+as it was happening in var 
+
+what happens is that the value of a goes in temporal dead zone 
+temporal dead zone- kisi bhi variable ke declaration se initilization tak ka time
+hota hai temporal dead zone
+
+all of them are hoisted but let and const have temporal dead zone
+
+let cannot be redefined/redeclared but re-allocated
+var can be redefined
+
+in same scope let cannot be declared
+Var can be redeclared in same scope but this cannot be 
+let and const
+
+let and const value can be updated
+
+const c=30;
+ c=40; // this will give error
+
+const c=30;
+function xyz(){
+   const c=50;
+   clg(c);
+} 
+xyz();  // this is block scope and value of const can be redefined but not update in this
+
+var and let can be updated in the same cope but const cannot be updated
+
+// arrow functions vs normal functions
+
+  normal function 
+      function regular() { }
+  
+  arrow function 
+   var arrow= ()=>{ }
+
+() - pass the arguments heree
+=> - fat arrow function
+
+
+
+
+
 Note-
 *JavaScript is a synchronous single-threaded language
 
@@ -305,9 +380,25 @@ asynchronous- due to synchronous programming, sometimes important
 instructions get blocked due to some previous instructions, which causes delay
 in the UI. Asynchrnous code execution allows to execute next instructions immediately and doesnt block the flow.
 
+setTimeout()- kisi function ko execute krta hai at which time
 
+callback - function passed as an argument to another function
 
+callback hell -nested callbacks stacked below one another
+    forming a pyramid structure(pyramid of doon)
+this style of rpogramming becomes difficult to understand and manage
 
+setTimeout-  it will take function as an input and 
+     and the time of how much time later we want to call that function
+
+function hello(){
+   clg("hello");
+}
+
+setTimeout(hello, 1000);
+
+this setTimeout is not provided by javascript 
+it is provided by browser
 
 
 
